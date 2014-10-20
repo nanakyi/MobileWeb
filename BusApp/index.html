@@ -1,0 +1,82 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <link rel = "stylesheet" href = "jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css">
+            <script src = "jquery.mobile-1.4.4/jquery-1.11.1.min.js"></script>
+        <script src = "jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
+        
+    
+     <script type="text/javascript" src="functions.js"></script>
+
+      <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+      <!-- <script type="text/javascript" src="myFunctions.js"></script>-->
+     </head>   
+
+
+    <body>
+
+        
+    	<div data-role="page" data-theme="b">
+    <div data-role="header">
+
+    <h1> TROSKI REGISTER Desktop</h1>
+    </div>
+            <div data-role="content">
+     <div class="geo-coords">
+            BusLocation:<span id="Lat">lat: ...</span>°,
+                   <span id="Long">long: ...</span>°
+        </div>
+
+    </div>
+
+<div role="main" class="ui-content">
+<tr>
+       
+                    <button id="date"  width="30%">Start by getting today's Date</button>
+                    </tr>
+                    <button id="busNumber"  width="30%">Check your bus Number</button>
+
+
+         <div data-role="controlgroup" data-type="horizontal" align ="center">
+            <div data-role="controlgroup" data-type="horizontal">
+                <button id='capacity'>Click to get Bus Capacity: </button>
+                    <p id="actual"  width="30%" >0</p>
+                    <p></p>
+                    <p  width="70%" >Seats booked</p>
+                <p id='seats' style='font-size:250%'>0</p><p></p>
+                    <p  width="70%" >Today'sTotal Revenue </p>
+                <p id='sales' style='font-size:250%'>0</p>
+
+
+
+
+        <Caption of group:</p>
+        <button id='add'>Add</button>
+        <button id="subtract">Subtract</button>
+        
+        <button id="empty">Empty</button>
+        <button id="full">Full</button>
+        </div>
+
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" align ="left">
+            <div data-role="controlgroup" data-type="horizontal">
+                
+                    
+                    
+
+        <button id="reserved">List of Reserved</button>
+        <div align ="right">
+        <a href="./jqueryMobile-embed.html" 
+           data-role="button" 
+           data-inline="true">
+            Log Out
+        </a>
+        </div>
+      </div> 
+            </div>
+     
+       </div> 
+    </body>
+    </html>
